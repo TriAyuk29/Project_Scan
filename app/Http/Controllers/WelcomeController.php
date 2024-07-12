@@ -13,6 +13,6 @@ class WelcomeController extends Controller
 
     public function scan()
     {
-        return view('welcome');
+        return view('scan');
     }
 }

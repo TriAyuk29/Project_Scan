@@ -19,6 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/scan', [WelcomeController::class, 'scan'])->name('scan');
 
-Route::get('/scan', [QRCodeController::class, 'scan']);
+Route::get('/scan', [QRCodeController::class, 'scan'])->name('scan');
